@@ -8,7 +8,6 @@ Please select appropriate executable (operating system and architecture) on 'bui
 - mtbls-compress
 - mtbls-rename
 
-
 ## Compress utility usage
 
 mtbls-compress compress all folders in a folder (not recursive) and moves original compressed folders into \<folder path\>_original folder.
@@ -29,7 +28,7 @@ mtbls-compress RAW_FILES --include=*.d --verbose
 
 ## Rename utility usage
 
-Rename utility removed all unexpected characters in file names. Accepted characters 0-9 a-z A-Z -_ . characters. All invalid characters (except + ) will be replaces with \_ character. + character will be replaced with \_PLUS\_.
+Rename utility removes all unexpected characters in file names on a folder. Accepted characters for file name are 0-9 a-z A-Z -_ and dot (.). All invalid characters (except + ) will be replaced with \_ character. + character will be replaced with \_PLUS\_.
 
 ```
 
